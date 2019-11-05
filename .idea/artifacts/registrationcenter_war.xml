@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="registrationcenter:war">
+    <output-path>$PROJECT_DIR$/allparent/registration-center/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>registrationcenter</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="registration-center-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="registrationcenter:war exploded" />
+    </root>
+  </artifact>
+</component>

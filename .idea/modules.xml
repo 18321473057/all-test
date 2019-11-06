@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/allparent/allparent.iml" filepath="$PROJECT_DIR$/allparent/allparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/allparent/all-utils/allutils.iml" filepath="$PROJECT_DIR$/allparent/all-utils/allutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/allparent/common/common.iml" filepath="$PROJECT_DIR$/allparent/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/allparent/registration-cencel/registrationcencel.iml" filepath="$PROJECT_DIR$/allparent/registration-cencel/registrationcencel.iml" />
     </modules>

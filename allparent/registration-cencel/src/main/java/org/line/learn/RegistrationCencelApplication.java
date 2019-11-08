@@ -2,8 +2,9 @@ package org.line.learn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-@EnableEurekaServe
+@EnableEurekaServer
 @SpringBootApplication
 public class RegistrationCencelApplication {
     public static void main(String[] args) {

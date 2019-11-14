@@ -3,16 +3,19 @@ package org.line.learn;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 /**
- * 仓库服务
+ * 订单服务
  */
-@SpringBootApplication
+
 @EnableEurekaClient
-public class RepertoryApplication
+@EnableFeignClients(basePackages = "org.line")
+@SpringBootApplication
+public class OrderApplication
 {
     public static void main( String[] args )
     {
-        SpringApplication.run(RepertoryApplication.class,args);
+        SpringApplication.run(OrderApplication.class,args);
     }
 }

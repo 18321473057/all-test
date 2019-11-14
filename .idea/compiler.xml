@@ -6,31 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="allutils" />
+        <module name="all-utils" />
         <module name="common" />
         <module name="order" />
+        <module name="proxy" />
         <module name="registrationcencel" />
         <module name="registrationcencel2" />
         <module name="repertory" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="all-utils" target="1.7" />
       <module name="allcommen" target="1.5" />
       <module name="allparent" target="1.6" />
-      <module name="allutils" target="1.7" />
-      <module name="common" target="1.7" />
-      <module name="order" target="1.7" />
+      <module name="common" target="1.6" />
+      <module name="order" target="1.6" />
+      <module name="proxy" target="1.6" />
       <module name="registrationcencel" target="1.6" />
       <module name="registrationcencel2" target="1.6" />
       <module name="registrationcenter" target="1.7" />
       <module name="repertory" target="1.6" />
+      <module name="utils" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="allutils" options="" />
       <module name="common" options="" />
       <module name="registrationcencel" options="" />
+      <module name="utils" options="" />
     </option>
   </component>
 </project>

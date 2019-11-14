@@ -8,6 +8,12 @@ eureka:
     registerWithEureka: true #是否将自己注册到Eureka服务中，默认为true
     fetchRegistry: true #是否从Eureka中获取注册信息，默认为true
     serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址
-      defaultZone: http://127.0.0.1:9999/eureka/
+      defaultZone: http://ycs:1234@127.0.0.1:9999/eureka/
   instance:
     prefer-ip-address: true #将自己的ip地址注册到Eureka服务中
+security:
+  basic:
+    enable: true #开启基于HTTP basic的认证
+  user: #配置用户的账号信息
+    name: ycs
+    password: 1234

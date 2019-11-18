@@ -16,7 +16,9 @@ public class OrderController {
     //剩余量
     @RequestMapping("/total")
     public Integer getTotalNumber(@RequestParam String sku){
-        return  orderService.getTotleNumber(sku);
+        Integer a =   orderService.getTotleNumber(sku);
+        System.out.println(a);
+        return  a;
     }
 
 }

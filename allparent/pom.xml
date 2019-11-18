@@ -22,6 +22,7 @@
         <module>repertory</module>
         <module>order</module>
         <module>proxy</module>
+        <module>repertory2</module>
     </modules>
 
     <packaging>pom</packaging>

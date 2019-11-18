@@ -9,6 +9,6 @@ public class repertoryController {
 
     @RequestMapping("/total")
     public Integer getTotalNumber(String key){
-        return 11111111;
+        return 22222222;
     }
 }

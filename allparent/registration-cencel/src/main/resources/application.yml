@@ -11,7 +11,7 @@ eureka:
       defaultZone: http://127.0.0.1:9999/eureka/
   instance:
     prefer-ip-address: true #将自己的ip地址注册到Eureka服务中
-security:
+security: #安全
   basic:
     enable: true #开启基于HTTP basic的认证
   user: #配置用户的账号信息

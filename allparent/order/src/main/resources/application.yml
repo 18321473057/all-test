@@ -17,6 +17,6 @@ eureka:
     instance-id: ${spring.application.name}:${server.port} #指定实例id
 
 
-itcast-microservice-item:
-  ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule # irule 类下实现都可以
+#itcast-microservice-item:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule # irule 类下实现都可以

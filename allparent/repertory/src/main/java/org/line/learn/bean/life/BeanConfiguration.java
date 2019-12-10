@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class BeanConfiguration {
 
-//    @Bean(initMethod = "initMethod",destroyMethod = "inferredaa")
+    @Bean(initMethod = "initMethod",destroyMethod = "inferredaa")
     public BeanLife beanLife(){
         return  new BeanLife();
     }

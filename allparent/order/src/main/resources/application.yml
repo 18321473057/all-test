@@ -1,5 +1,6 @@
 server:
   port: 8082 #服务端口
+  context-path: /order
 
 spring:
   application:

@@ -1,6 +1,5 @@
-package org.line.learn.controller.service;
+package org.line.learn.service;
 
-import org.springframework.stereotype.Service;
 
  public interface IOrderService {
 

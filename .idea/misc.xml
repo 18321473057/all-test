@@ -13,6 +13,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/allparent/all-commen/pom.xml" />
+        <option value="$PROJECT_DIR$/allparent/casa/pom.xml" />
         <option value="$PROJECT_DIR$/allparent/common/pom.xml" />
         <option value="$PROJECT_DIR$/allparent/registration-center/pom.xml" />
       </set>

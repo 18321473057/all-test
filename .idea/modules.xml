@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/allparent/common/common.iml" filepath="$PROJECT_DIR$/allparent/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/allparent/order/order.iml" filepath="$PROJECT_DIR$/allparent/order/order.iml" />
       <module fileurl="file://$PROJECT_DIR$/allparent/proxy/proxy.iml" filepath="$PROJECT_DIR$/allparent/proxy/proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/allparent/registration-cencel/registration-cencel.iml" filepath="$PROJECT_DIR$/allparent/registration-cencel/registration-cencel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/allparent/registration-cencel2/registration-cencel2.iml" filepath="$PROJECT_DIR$/allparent/registration-cencel2/registration-cencel2.iml" />
       <module fileurl="file://$PROJECT_DIR$/allparent/registration-cencel/registrationcencel.iml" filepath="$PROJECT_DIR$/allparent/registration-cencel/registrationcencel.iml" />
       <module fileurl="file://$PROJECT_DIR$/allparent/registration-cencel2/registrationcencel2.iml" filepath="$PROJECT_DIR$/allparent/registration-cencel2/registrationcencel2.iml" />
       <module fileurl="file://$PROJECT_DIR$/allparent/repertory/repertory.iml" filepath="$PROJECT_DIR$/allparent/repertory/repertory.iml" />

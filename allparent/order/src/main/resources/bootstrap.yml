@@ -1,0 +1,13 @@
+eureka:
+  client:
+    serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址
+      defaultZone: http://ycs:1234@127.0.0.1:9999/eureka/
+spring:
+  cloud:
+    config:
+      name: order
+      profile: devgit
+      label: master
+      discovery:
+        enable: true
+        service-id: cloud-configuration
